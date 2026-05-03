@@ -1,6 +1,6 @@
 # ML & AI Colab Notebooks Portfolio
 
-This repository is a curated portfolio of my machine learning, deep learning, and AI-related notebook work. It combines hands-on experiments across generative models, neural networks, NLP/LLMs, computer vision, and representation learning.
+This repository is a curated portfolio of my machine learning, deep learning, and AI-related notebook work. It combines hands-on experiments across generative models, neural networks, NLP/LLMs, computer vision, classical machine learning, reinforcement learning, and representation learning.
 
 The goal of this repo is to showcase practical experimentation, model implementation, and concept exploration using Colab-friendly notebooks.
 
@@ -9,8 +9,10 @@ The goal of this repo is to showcase practical experimentation, model implementa
 - Generative modeling with Variational Autoencoders and diffusion processes
 - NLP and LLM experimentation with attention analysis and Qwen-based story alignment
 - Computer vision work with Siamese networks and image normalization
-- Representation learning with PPCA and Locally Linear Embedding
-- Foundational ML studies including regularization and RBMs
+- Representation learning with PCA, PPCA, LLE, ICA, FA, and EM
+- Classical ML studies including linear classifiers, SVM workflows, and LDA/QDA
+- Reinforcement learning experimentation on Atari environments
+- Foundational ML studies including regularization, RBMs, and XOR networks
 
 ## Repository Structure
 
@@ -36,13 +38,32 @@ The goal of this repo is to showcase practical experimentation, model implementa
   Siamese network experiment for similarity learning on image pairs.
 - [`notebooks/computer-vision/global-local-contrast-normalization.ipynb`](notebooks/computer-vision/global-local-contrast-normalization.ipynb)
   Visual preprocessing notebook covering global and local contrast normalization.
+- [`notebooks/computer-vision/cnn-mnist-classification.ipynb`](notebooks/computer-vision/cnn-mnist-classification.ipynb)
+  CNN-based MNIST image classification experiment.
 
 ### Representation Learning
 
+- [`notebooks/representation-learning/pca-2d-visualization.ipynb`](notebooks/representation-learning/pca-2d-visualization.ipynb)
+  PCA intuition notebook with 2D visualization and dimensionality reduction plots.
 - [`notebooks/representation-learning/probabilistic-pca.ipynb`](notebooks/representation-learning/probabilistic-pca.ipynb)
   Probabilistic PCA notebook for latent-variable-based dimensionality reduction.
 - [`notebooks/representation-learning/locally-linear-embedding.ipynb`](notebooks/representation-learning/locally-linear-embedding.ipynb)
   Manifold learning notebook demonstrating LLE on a Swiss roll dataset.
+- [`notebooks/representation-learning/em-gaussian-mixture.ipynb`](notebooks/representation-learning/em-gaussian-mixture.ipynb)
+  Expectation-Maximization workflow on synthetic Gaussian mixture data.
+- [`notebooks/representation-learning/independent-component-analysis.ipynb`](notebooks/representation-learning/independent-component-analysis.ipynb)
+  ICA notebook separating mixed source signals.
+- [`notebooks/representation-learning/factor-analysis.ipynb`](notebooks/representation-learning/factor-analysis.ipynb)
+  Factor analysis implementation for latent structure discovery.
+
+### Classical ML
+
+- [`notebooks/classical-ml/linear-classifier-from-scratch.ipynb`](notebooks/classical-ml/linear-classifier-from-scratch.ipynb)
+  Linear classifier notebook built from simple TensorFlow components.
+- [`notebooks/classical-ml/svm-colab-workflow.ipynb`](notebooks/classical-ml/svm-colab-workflow.ipynb)
+  SVM-focused Colab workflow and experimentation notebook.
+- [`notebooks/classical-ml/lda-vs-qda-decision-boundaries.ipynb`](notebooks/classical-ml/lda-vs-qda-decision-boundaries.ipynb)
+  Comparison of LDA and QDA on synthetic classification data.
 
 ### Foundations
 
@@ -50,6 +71,13 @@ The goal of this repo is to showcase practical experimentation, model implementa
   Introductory Restricted Boltzmann Machine experiment and sampling intuition.
 - [`notebooks/foundations/regularization-bias-variance.ipynb`](notebooks/foundations/regularization-bias-variance.ipynb)
   Notebook exploring overfitting, polynomial regression, and regularization effects.
+- [`notebooks/foundations/xor-neural-network.ipynb`](notebooks/foundations/xor-neural-network.ipynb)
+  Small neural-network notebook exploring the XOR problem.
+
+### Reinforcement Learning
+
+- [`notebooks/reinforcement-learning/atari-deep-q-learning.ipynb`](notebooks/reinforcement-learning/atari-deep-q-learning.ipynb)
+  Atari reinforcement learning notebook using deep Q-learning style components.
 
 ## Notes
 

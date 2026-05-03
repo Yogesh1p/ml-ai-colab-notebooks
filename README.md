@@ -8,9 +8,9 @@ The goal of this repo is to showcase practical experimentation, model implementa
 
 - Generative modeling with Variational Autoencoders and diffusion processes
 - NLP and LLM experimentation with attention analysis and Qwen-based story alignment
-- Computer vision work with Siamese networks and image normalization
+- Computer vision work with Siamese networks, neural-network implementations, and synthetic image regression
 - Representation learning with PCA, PPCA, LLE, ICA, FA, and EM
-- Classical ML studies including linear classifiers, SVM workflows, and LDA/QDA
+- Classical ML studies including linear classifiers, SVM workflows, and discriminant analysis
 - Probabilistic modeling experiments with MRFs, NADE, importance sampling, and MLE
 - Mathematical foundations notebooks for optimization, covariance, distributions, and uncertainty
 - Scientific ML experiments with reaction-diffusion and Turing pattern inversion
@@ -40,6 +40,8 @@ The goal of this repo is to showcase practical experimentation, model implementa
   Qwen 2.5 1.5B fp16 notebook for alignment-style prompting and generation analysis.
 - [`notebooks/nlp-llm/word-sense-disambiguation-attention.ipynb`](notebooks/nlp-llm/word-sense-disambiguation-attention.ipynb)
   Attention-based word sense disambiguation experiment using embeddings and candidate words.
+- [`notebooks/nlp-llm/qwen-hidden-state-trajectory.ipynb`](notebooks/nlp-llm/qwen-hidden-state-trajectory.ipynb)
+  Visualization notebook tracing Qwen hidden-state trajectories through PCA-style projections.
 
 ### Computer Vision
 
@@ -49,11 +51,17 @@ The goal of this repo is to showcase practical experimentation, model implementa
   Visual preprocessing notebook covering global and local contrast normalization.
 - [`notebooks/computer-vision/cnn-mnist-classification.ipynb`](notebooks/computer-vision/cnn-mnist-classification.ipynb)
   CNN-based MNIST image classification experiment.
+- [`notebooks/computer-vision/neural-network-from-scratch-mnist.ipynb`](notebooks/computer-vision/neural-network-from-scratch-mnist.ipynb)
+  From-scratch neural-network implementation with training and testing on MNIST-style data.
+- [`notebooks/computer-vision/circle-parameter-regression.ipynb`](notebooks/computer-vision/circle-parameter-regression.ipynb)
+  Synthetic vision notebook predicting circle parameters from generated images.
 
 ### Representation Learning
 
 - [`notebooks/representation-learning/pca-2d-visualization.ipynb`](notebooks/representation-learning/pca-2d-visualization.ipynb)
   PCA intuition notebook with 2D visualization and dimensionality reduction plots.
+- [`notebooks/representation-learning/pca-breast-cancer-features.ipynb`](notebooks/representation-learning/pca-breast-cancer-features.ipynb)
+  PCA notebook on breast cancer features with component-weight interpretation.
 - [`notebooks/representation-learning/probabilistic-pca.ipynb`](notebooks/representation-learning/probabilistic-pca.ipynb)
   Probabilistic PCA notebook for latent-variable-based dimensionality reduction.
 - [`notebooks/representation-learning/locally-linear-embedding.ipynb`](notebooks/representation-learning/locally-linear-embedding.ipynb)
@@ -73,6 +81,8 @@ The goal of this repo is to showcase practical experimentation, model implementa
   SVM-focused Colab workflow and experimentation notebook.
 - [`notebooks/classical-ml/lda-vs-qda-decision-boundaries.ipynb`](notebooks/classical-ml/lda-vs-qda-decision-boundaries.ipynb)
   Comparison of LDA and QDA on synthetic classification data.
+- [`notebooks/classical-ml/linear-discriminant-analysis-projection.ipynb`](notebooks/classical-ml/linear-discriminant-analysis-projection.ipynb)
+  LDA-focused notebook showing class separation and 1D projection intuition.
 
 ### Probabilistic Models
 
@@ -82,6 +92,8 @@ The goal of this repo is to showcase practical experimentation, model implementa
   Visualization notebook for importance sampling and proposal distributions.
 - [`notebooks/probabilistic-models/maximum-likelihood-estimation.ipynb`](notebooks/probabilistic-models/maximum-likelihood-estimation.ipynb)
   Small MLE optimization notebook using sample data and numerical likelihood maximization.
+- [`notebooks/probabilistic-models/naive-bayes-spam-classifier.ipynb`](notebooks/probabilistic-models/naive-bayes-spam-classifier.ipynb)
+  Naive Bayes text classification notebook for spam-vs-not-spam style prediction.
 
 ### Math Foundations
 
@@ -93,6 +105,8 @@ The goal of this repo is to showcase practical experimentation, model implementa
   Statistical distribution visualizations and theoretical PDF comparisons.
 - [`notebooks/math-foundations/gradient-descent-vs-hessian.ipynb`](notebooks/math-foundations/gradient-descent-vs-hessian.ipynb)
   Optimization notebook comparing gradient-based behavior on a quadratic objective.
+- [`notebooks/math-foundations/linear-regression-gradient-descent.ipynb`](notebooks/math-foundations/linear-regression-gradient-descent.ipynb)
+  Linear regression notebook with least-squares intuition and iterative optimization.
 - [`notebooks/math-foundations/neural-network-variance-modeling.ipynb`](notebooks/math-foundations/neural-network-variance-modeling.ipynb)
   PyTorch notebook on variance modeling and uncertainty-style regression behavior.
 

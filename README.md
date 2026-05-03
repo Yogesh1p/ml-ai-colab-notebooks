@@ -1,6 +1,6 @@
 # ML & AI Colab Notebooks Portfolio
 
-This repository is a curated portfolio of my machine learning, deep learning, and AI-related notebook work. It combines hands-on experiments across generative models, neural networks, NLP/LLMs, computer vision, classical machine learning, reinforcement learning, and representation learning.
+This repository is a curated portfolio of my machine learning, deep learning, and AI-related notebook work. It combines hands-on experiments across generative models, neural networks, NLP/LLMs, computer vision, classical machine learning, reinforcement learning, probabilistic modeling, mathematical foundations, scientific ML, and representation learning.
 
 The goal of this repo is to showcase practical experimentation, model implementation, and concept exploration using Colab-friendly notebooks.
 
@@ -11,6 +11,9 @@ The goal of this repo is to showcase practical experimentation, model implementa
 - Computer vision work with Siamese networks and image normalization
 - Representation learning with PCA, PPCA, LLE, ICA, FA, and EM
 - Classical ML studies including linear classifiers, SVM workflows, and LDA/QDA
+- Probabilistic modeling experiments with MRFs, NADE, importance sampling, and MLE
+- Mathematical foundations notebooks for optimization, covariance, distributions, and uncertainty
+- Scientific ML experiments with reaction-diffusion and Turing pattern inversion
 - Reinforcement learning experimentation on Atari environments
 - Foundational ML studies including regularization, RBMs, and XOR networks
 
@@ -20,8 +23,12 @@ The goal of this repo is to showcase practical experimentation, model implementa
 
 - [`notebooks/generative-models/variational-autoencoder-mnist.ipynb`](notebooks/generative-models/variational-autoencoder-mnist.ipynb)
   PyTorch implementation of a Variational Autoencoder trained on MNIST.
+- [`notebooks/generative-models/attention-residual-vae-training.ipynb`](notebooks/generative-models/attention-residual-vae-training.ipynb)
+  VAE training notebook with attention and residual building blocks.
 - [`notebooks/generative-models/diffusion-mean-covariance.ipynb`](notebooks/generative-models/diffusion-mean-covariance.ipynb)
   Notebook exploring how diffusion changes the mean and covariance of a distribution over time.
+- [`notebooks/generative-models/neural-autoregressive-density-estimation.ipynb`](notebooks/generative-models/neural-autoregressive-density-estimation.ipynb)
+  Generative modeling notebook for Neural Autoregressive Density Estimation on MNIST.
 
 ### NLP / LLM
 
@@ -31,6 +38,8 @@ The goal of this repo is to showcase practical experimentation, model implementa
   Qwen 2.5 7B 4-bit workflow for story alignment experiments.
 - [`notebooks/nlp-llm/qwen-story-alignment-fp16.ipynb`](notebooks/nlp-llm/qwen-story-alignment-fp16.ipynb)
   Qwen 2.5 1.5B fp16 notebook for alignment-style prompting and generation analysis.
+- [`notebooks/nlp-llm/word-sense-disambiguation-attention.ipynb`](notebooks/nlp-llm/word-sense-disambiguation-attention.ipynb)
+  Attention-based word sense disambiguation experiment using embeddings and candidate words.
 
 ### Computer Vision
 
@@ -65,6 +74,28 @@ The goal of this repo is to showcase practical experimentation, model implementa
 - [`notebooks/classical-ml/lda-vs-qda-decision-boundaries.ipynb`](notebooks/classical-ml/lda-vs-qda-decision-boundaries.ipynb)
   Comparison of LDA and QDA on synthetic classification data.
 
+### Probabilistic Models
+
+- [`notebooks/probabilistic-models/markov-random-field-intuition.ipynb`](notebooks/probabilistic-models/markov-random-field-intuition.ipynb)
+  Introductory Markov Random Field notebook with graphical-model intuition.
+- [`notebooks/probabilistic-models/importance-sampling-intuition.ipynb`](notebooks/probabilistic-models/importance-sampling-intuition.ipynb)
+  Visualization notebook for importance sampling and proposal distributions.
+- [`notebooks/probabilistic-models/maximum-likelihood-estimation.ipynb`](notebooks/probabilistic-models/maximum-likelihood-estimation.ipynb)
+  Small MLE optimization notebook using sample data and numerical likelihood maximization.
+
+### Math Foundations
+
+- [`notebooks/math-foundations/condition-number-level-sets.ipynb`](notebooks/math-foundations/condition-number-level-sets.ipynb)
+  Visual intuition for condition number through quadratic level sets.
+- [`notebooks/math-foundations/covariance-gaussian-visualization.ipynb`](notebooks/math-foundations/covariance-gaussian-visualization.ipynb)
+  Covariance and multivariate Gaussian visualization notebook.
+- [`notebooks/math-foundations/distribution-visualizations.ipynb`](notebooks/math-foundations/distribution-visualizations.ipynb)
+  Statistical distribution visualizations and theoretical PDF comparisons.
+- [`notebooks/math-foundations/gradient-descent-vs-hessian.ipynb`](notebooks/math-foundations/gradient-descent-vs-hessian.ipynb)
+  Optimization notebook comparing gradient-based behavior on a quadratic objective.
+- [`notebooks/math-foundations/neural-network-variance-modeling.ipynb`](notebooks/math-foundations/neural-network-variance-modeling.ipynb)
+  PyTorch notebook on variance modeling and uncertainty-style regression behavior.
+
 ### Foundations
 
 - [`notebooks/foundations/restricted-boltzmann-machine.ipynb`](notebooks/foundations/restricted-boltzmann-machine.ipynb)
@@ -78,6 +109,13 @@ The goal of this repo is to showcase practical experimentation, model implementa
 
 - [`notebooks/reinforcement-learning/atari-deep-q-learning.ipynb`](notebooks/reinforcement-learning/atari-deep-q-learning.ipynb)
   Atari reinforcement learning notebook using deep Q-learning style components.
+
+### Scientific ML
+
+- [`notebooks/scientific-ml/turing-pattern-simulation.ipynb`](notebooks/scientific-ml/turing-pattern-simulation.ipynb)
+  Reaction-diffusion simulation notebook for Turing pattern formation.
+- [`notebooks/scientific-ml/turing-pattern-inversion-dataset.ipynb`](notebooks/scientific-ml/turing-pattern-inversion-dataset.ipynb)
+  Research-style notebook for generating inversion datasets from Turing pattern systems.
 
 ## Notes
 
